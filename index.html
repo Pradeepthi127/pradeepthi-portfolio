@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Seekolu Pradeepthi | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+  <!-- Splash (quick fade) -->
+  <div id="splash">
+    <div class="splash-inner">
+      <div class="splash-logo">SP</div>
+      <div class="splash-text">Loading portfolio…</div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#home">Seekolu Pradeepthi</a>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#internships">Internships</a></li>
+        <li><a href="#certifications">Certificates</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact" class="btn btn-small">Hire Me</a></li>
+      </ul>
+
+      <div class="nav-right">
+        <button id="themeToggle" class="btn-ghost small" aria-label="Toggle theme">🌙</button>
+        <button class="hamburger" aria-label="Open menu">☰</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero container reveal">
+    <div class="hero-text">
+      <h1>Hi, I'm <span class="gradient">Seekolu Pradeepthi</span></h1>
+      <p class="subtitle">
+        Aspiring AI & Data Science professional with practical internship experience and academic projects.
+        Skilled in Python, machine learning, and data analytics with strong problem-solving abilities.
+        Passionate about applying AI-driven solutions to real-world challenges.
+      </p>
+      <p class="subtitle small">
+        Also building as a <strong>Full-Stack Developer</strong> — HTML, CSS, JavaScript, PHP & MySQL.
+      </p>
+
+      <div class="cta">
+        <a href="#projects" class="btn">View Projects</a>
+        <a href="#resume" class="btn btn-ghost">Download Resume</a>
+      </div>
+
+      <div class="socials">
+        <a href="https://github.com/Pradeepthi127" target="_blank" rel="noopener">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/seekolu-pradeepthi-aa31132bb" target="_blank" rel="noopener">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="mailto:spradeepthi10@gmail.com">
+          <i class="fas fa-envelope"></i> Email
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-card">
+      <img src="profile.jpg" class="avatar" alt="Profile photo of Seekolu Pradeepthi"
+           onerror="this.style.display='none';document.getElementById('avatarFallback').style.display='grid';"/>
+      <div id="avatarFallback" class="avatar-fallback">SP</div>
+      <ul class="quick-facts">
+        <li>📍 Hyderabad, India</li>
+        <li>🎯 Open to Internships (Onsite/Remote)</li>
+        <li>📧 <a href="mailto:spradeepthi10@gmail.com">spradeepthi10@gmail.com</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section container reveal">
+    <h2 class="section-title">About Me</h2>
+    <p class="section-text">
+      I’m passionate about solving real problems with data and code. I work across the stack:
+      preparing datasets, training ML models, visualizing insights, and shipping responsive web apps.
+      My focus is to turn ideas into usable products that help people.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section container reveal">
+    <h2 class="section-title">Skills</h2>
+
+    <h3 class="pill-title">Programming</h3>
+    <div class="chips">
+      <span class="chip">Python</span>
+      <span class="chip">Java</span>
+      <span class="chip">SQL</span>
+      <span class="chip">C</span>
+    </div>
+
+    <h3 class="pill-title">AI/ML & Analytics</h3>
+    <div class="chips">
+      <span class="chip">Machine Learning</span>
+      <span class="chip">Data Visualization</span>
+      <span class="chip">Predictive Modeling</span>
+    </div>
+
+    <h3 class="pill-title">Tools</h3>
+    <div class="chips">
+      <span class="chip">Power BI</span>
+      <span class="chip">Tableau</span>
+    </div>
+
+    <h3 class="pill-title">Soft Skills</h3>
+    <div class="chips">
+      <span class="chip">Leadership</span>
+      <span class="chip">Teamwork</span>
+      <span class="chip">Communication</span>
+      <span class="chip">Problem-Solving</span>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section container reveal">
+    <h2 class="section-title">Projects</h2>
+    <div class="grid">
+      <div class="card lift">
+        <h3>Working of a Paralyzed Arm (IoT)</h3>
+        <p>
+          IoT-based assistive system enabling fully paralyzed individuals (with finger movement)
+          to request essentials like water, food, and medicine to improve independent communication.
+        </p>
+        <span class="pill">IoT • Arduino • Sensors</span>
+      </div>
+
+      <div class="card lift">
+        <h3>Smart Reclaim (Mobile App)</h3>
+        <p>
+          Android app that connects people who lost items with those who found them, enabling secure
+          and quick recovery with intuitive flows for posting and matching.
+        </p>
+        <span class="pill">Java • Android • Firebase</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Internships (restored timeline with bullets) -->
+  <section id="internships" class="section container reveal">
+    <h2 class="section-title">Internships</h2>
+
+    <div class="timeline">
+      <div class="t-item">
+        <div class="t-dot"></div>
+        <div class="t-card">
+          <h3>AI Intern — Edunet Foundation / Microsoft</h3>
+          <p class="t-meta">Remote • Apr 2025 – May 2025</p>
+          <ul>
+            <li>Completed Microsoft-supported foundations of AI track and core ML concepts.</li>
+            <li>Built small ML demos and presented learnings with concise summaries.</li>
+            <li>Practiced problem-solving using AI tools and reproducible notebooks.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="t-item">
+        <div class="t-dot"></div>
+        <div class="t-card">
+          <h3>Data Analyst Intern — Elevate Labs</h3>
+          <p class="t-meta">Remote • Apr 2025 – May 2025</p>
+          <ul>
+            <li>Performed data cleaning and visualization using Python and spreadsheets.</li>
+            <li>Created simple dashboards to communicate KPIs and trends.</li>
+            <li>Delivered insights for stakeholder review and iteration.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="t-item">
+        <div class="t-dot"></div>
+        <div class="t-card">
+          <h3>Web Developer Intern — Oasis Infobyte</h3>
+          <p class="t-meta">Remote • Aug 2025 – Sep 2025</p>
+          <ul>
+            <li>Built responsive pages and practiced component-based layouts.</li>
+            <li>Improved accessibility and UX on small web tasks.</li>
+            <li>Collaborated via Git/GitHub following structured tasks.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section id="certifications" class="section container reveal">
+    <h2 class="section-title">Certificates</h2>
+    <div class="grid">
+      <a class="card lift" href="certificate_edunet.pdf" target="_blank" rel="noopener">
+        <h3>AI & Cloud Internship</h3>
+        <p>Edunet Foundation & Microsoft</p>
+        <span class="pill">Open PDF</span>
+      </a>
+
+      <a class="card lift" href="certificate_elevate.pdf" target="_blank" rel="noopener">
+        <h3>Data Analyst Internship</h3>
+        <p>Elevate Labs</p>
+        <span class="pill">Open PDF</span>
+      </a>
+
+      <a class="card lift" href="certificate_oasis.pdf" target="_blank" rel="noopener">
+        <h3>Web Development Internship</h3>
+        <p>Oasis Infobyte</p>
+        <span class="pill">Open PDF</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Resume -->
+  <section id="resume" class="section container reveal">
+    <h2 class="section-title">Resume</h2>
+    <p class="section-text">View or download my latest resume.</p>
+    <div class="cta">
+      <a class="btn" href="seekolu_pradeepthi_resume.pdf" target="_blank" rel="noopener">Open Resume</a>
+      <a class="btn btn-ghost" href="seekolu_pradeepthi_resume.pdf" download>Download PDF</a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section container reveal">
+    <h2 class="section-title">Contact</h2>
+    <form id="contactForm" class="form contact" aria-label="Contact form">
+      <label class="field">
+        <span class="icon" aria-hidden="true">👤</span>
+        <input type="text" id="name" placeholder="Your name" aria-label="Your name"/>
+      </label>
+
+      <label class="field">
+        <span class="icon" aria-hidden="true">✉️</span>
+        <input type="email" id="email" placeholder="Your email" aria-label="Your email"/>
+      </label>
+
+      <label class="field area">
+        <span class="icon" aria-hidden="true">💬</span>
+        <textarea id="message" rows="5" placeholder="Message" aria-label="Your message"></textarea>
+      </label>
+
+      <button type="submit" class="btn">Send</button>
+      <p id="formMsg" class="form-msg" role="status" aria-live="polite"></p>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2025 <strong>Seekolu Pradeepthi</strong>. All rights reserved.</p>
+      <a class="top" href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
